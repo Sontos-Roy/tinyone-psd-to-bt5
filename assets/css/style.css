@@ -3,7 +3,10 @@ body{
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #898989;
+    color: #252525;
+}
+.font-weight-bold{
+    font-weight: 700;
 }
 /* common style end  */
 header{        
@@ -75,8 +78,10 @@ header{
     margin-top: 60px;
 }
 .slider-left-text h1{
-    font-family:PTSans-Bold ;
+    font-family:'PTSans-Bold', sans-serif ;
+    font-weight: 500;
     margin-bottom: 15px;
+    color: #313841;
 }
 .slider-left-text h5{
     font-size: 20px;
@@ -106,3 +111,9 @@ header{
     border-radius: 50%;	
 }
 /* slider css end */
+
+/* feature start  */
+.icon-box .icon{
+    font-size: 50px;
+}
+/* feature end  */
